@@ -7,7 +7,7 @@ graph LR
     B -- output --> D(mac_code)
 ```
 ## MAC为什么能做认证?
-![MAC-message-authentication-code](E:\project\GraphCryptography\MAC-message-authentication-code.png)
+![MAC-message-authentication-code](MAC-message-authentication-code.png)
 
 - 双方以某种方式交换某个秘密MAC密钥(**预共享密钥**)。
 
@@ -17,7 +17,7 @@ graph LR
 
 - 如果有篡改的消息，MAC将是不正确的。
 - 实际场景下message在channel中通常是加密的，这种情形下可以用MAC来认证加密消息。
-- ![mac](E:\project\GraphCryptography\mac.png)
+- ![mac](mac.png)
 
 
 ## 常见的MAC算法
@@ -38,7 +38,7 @@ graph LR
 
 hmac是一种常见的mac算法，其构造的原理如图所示：
 
-![hmac](E:\project\GraphCryptography\hmac.png)
+![hmac](hmac.png)
 
 其中：
 
