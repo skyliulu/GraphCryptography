@@ -5,6 +5,7 @@
   - 意味着输入不同，hash函数的输出不同。或者说很难找的两个输入，他们的hash值是一样的。
 - 不可逆
   - 计算hash值很容易，但是根据hash值推断出hash函数的输入很难，其概率是可忽略的。
+<!-- more -->
 ```mermaid
 graph LR
     subgraph 抗冲突

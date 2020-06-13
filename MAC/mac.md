@@ -6,6 +6,7 @@ graph LR
     C(msg) -- input --> B
     B -- output --> D(mac_code)
 ```
+<!-- more -->
 ## MAC为什么能做认证?
 ![MAC-message-authentication-code](MAC-message-authentication-code.png)
 
