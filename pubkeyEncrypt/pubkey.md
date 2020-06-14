@@ -70,3 +70,11 @@
 
 
 
+### EIGamal方式
+EIGamal方式利用mod N下求离散对数的是困难的。加密后的密文是明文的两倍。
+
+### Rabin方式
+Rabin方式利用mod N下求平方根的困难。
+
+### 椭圆曲线密码（Elliptic Curue Cryptographic，ECC)
+椭圆曲线密码利用椭圆曲线上特定点进行特殊的乘法运算来实现，这种运算的逆运算是非常困难的。椭圆曲线的密钥长度比RSA的短。
